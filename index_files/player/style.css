@@ -1,0 +1,83 @@
+.playingList_stt
+{
+    position  :absolute;
+    right:5px;
+    bottom:5px;
+    z-index:2;
+}
+
+.playingListDisplay
+{
+    position:absolute;
+    left:10px;
+    bottom:-38px;
+    padding:5px 8px;
+    max-width:30px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    border: 1px solid rgba(0,0,0,0.1);
+    font-size: 14px;
+    z-index:2;
+    color: rgba(255,255,255,0.7);
+    text-align: center;
+    display: none;
+}
+
+.henGio
+{
+    position:absolute;
+    right:20px;
+    bottom:50px;
+    max-width:40px;
+    z-index:2;
+    display: none;
+}
+
+.henGio_chonGio
+{
+    position:fixed;
+    left:0px;
+    top:0px;
+    padding-top:100px;
+    width:100%;
+    height:100%;
+    z-index:100;
+    display: none;
+    background-color: rgba(0,0,0,0.3);
+}
+
+.henGio_display
+{
+    position:absolute;
+    left:160px;
+    bottom:-38px;
+    padding:5px 8px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    border: 1px solid rgba(0,0,0,0.1);
+    font-size: 14px;
+    z-index:2;
+    color: red;
+    text-align: center;
+    display: none;
+}
+
+
+.henGio_display_clock
+{
+    position:absolute;
+    left:80px;
+    bottom:-38px;
+    padding:5px 8px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.1);
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    border: 1px solid rgba(0,0,0,0.1);
+    font-size: 14px;
+    z-index:2;
+    color: rgba(0,0,0,0.6);
+    text-align: center;
+    display: none;
+}
